@@ -80,7 +80,7 @@ li {
 }
 .row {
   display: grid;
-  grid-template: repeat(12, fr);
+  grid-template-columns: repeat(12, 1fr);
 }
 
 .col-xs-12 {
@@ -354,10 +354,6 @@ li {
   padding-right: 15px;
 }
 
-.col-lg-8 {
-  display: flex;
-}
-
 .input__menu-footer {
   border-top-style: none;
   border-left-style: none;
@@ -366,7 +362,7 @@ li {
 .footer {
   text-align: center;
   background-color: #EFEFEF;
-  width: 100%;
+  width: 90%;
 }
 
 .input__menu-footer {
