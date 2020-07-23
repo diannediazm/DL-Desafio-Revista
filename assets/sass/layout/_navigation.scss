@@ -1,19 +1,19 @@
-.container__logo {
+.navbar__logo {
   display: inline-block;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.container__menu {
+.navbar__menu {
   display: inline-block;
-  width: 900px;
-  text-align: right;
+  padding-left: 53%;
 }
 
 .navbar {
   padding: 10px;
-  border-bottom: 1px solid gray
+  border-bottom: 1px solid gray;
+  width: 100%;
 }
 
 ul {
