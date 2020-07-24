@@ -7,6 +7,10 @@
   }
 
   @media (max-width: 576px) {
+    .container {
+      width: 100%;
+      padding: 0px;
+    }
     .nosotros {
       display: none;
     }
@@ -23,8 +27,10 @@
     .input__menu {
       width: 50%;
     }
-    .entry__title--responsive {
-      font-size: 1.3em;
+    
+    .entry__body-image {
+      width: 100%;
+      height: 120px;
     }
   }
   @media (min-width: 768px) {
